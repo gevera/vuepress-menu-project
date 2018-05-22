@@ -18,10 +18,16 @@ module.exports={
         selectText: 'Languages / Языки',
         // label for this locale in the language dropdown
         label: 'Русский',
-        
+        nav: [
+	 { text: 'Официальная страница', link: 'http://trendufa.ru/airport' },
+	 { text: 'Инстаграм', link: 'https://www.instagram.com/trendufa/' },
+	 { text: 'ВКонтакте', link: 'https://vk.com/trendufa' }
+	], 
         sidebar: {
           '/': [
-                ['', 'Главная Страница'],
+                [
+		  '', 'Главная Страница'
+		],
                 {
                   title: 'Меню',
                   collapsable: false,
@@ -38,6 +44,11 @@ module.exports={
       '/eng/': {
         selectText: 'Languages / 选择语言',
         label: 'English',
+	nav: [
+         { text: 'Official Page', link: 'http://trendufa.ru/airport' },
+         { text: 'Instagram', link: 'https://www.instagram.com/trendufa/' },
+         { text: 'VKontakte', link: 'https://vk.com/trendufa' }
+        ],
         sidebar: {
           '/eng/': [
                    '',
