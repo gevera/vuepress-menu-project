@@ -21,7 +21,7 @@ module.exports={
         
         sidebar: {
           '/': [
-                '',
+                ['', 'Главная Страница'],
                 {
                   title: 'Меню',
                   collapsable: false,
