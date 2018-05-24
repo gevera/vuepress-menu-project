@@ -19,26 +19,25 @@ module.exports={
         // label for this locale in the language dropdown
         label: 'Русский',
         nav: [
-	 { text: 'Официальная страница', link: 'http://trendufa.ru/airport' },
-	 { text: 'Инстаграм', link: 'https://www.instagram.com/trendufa/' },
-	 { text: 'ВКонтакте', link: 'https://vk.com/trendufa' }
-	], 
+            	 { text: 'Официальная страница', link: 'http://trendufa.ru/airport' },
+            	 { text: 'Инстаграм', link: 'https://www.instagram.com/trendufa/' },
+            	 { text: 'ВКонтакте', link: 'https://vk.com/trendufa' }
+             ],
         sidebar: {
           '/': [
                 [
-		  '', 'Главная Страница'
-		],
+              		'', 'Главная Страница'
+            		],
                 {
                   title: 'Меню',
                   collapsable: false,
                   children: [
                     '/menu/',
-                    '/menu/drinks',
-                    '/menu/salads',
-                    '/menu/soups'
+                    '/menu/national/',
+                    '/menu/bar/'
                   ]
-                },
-          ],
+                }
+          ]
         }
       },
       '/eng/': {
