@@ -43,29 +43,28 @@ module.exports={
       '/eng/': {
         selectText: 'Languages / 选择语言',
         label: 'English',
-	nav: [
-         { text: 'Official Page', link: 'http://trendufa.ru/airport' },
-         { text: 'Instagram', link: 'https://www.instagram.com/trendufa/' },
-         { text: 'VKontakte', link: 'https://vk.com/trendufa' }
-        ],
+      	nav: [
+               { text: 'Official Page', link: 'http://trendufa.ru/airport' },
+               { text: 'Instagram', link: 'https://www.instagram.com/trendufa/' },
+               { text: 'VKontakte', link: 'https://vk.com/trendufa' }
+              ],
         sidebar: {
           '/eng/': [
-                   '',
-                   {
-                    title: 'Menu',
-                    collapsable: false,
-                    children: [
-                      '/eng/menu/',
-                      '/eng/menu/drinks',
-                      '/eng/menu/salads',
-                      '/eng/menu/soups'
-                    ]
-                  },
-          ],
-
+                     [
+                        '', 'Main Page',
+                     ],
+                     {
+                      title: 'Menu',
+                      collapsable: false,
+                      children: [
+                        '/eng/menu/',
+                        '/eng/menu/national/',
+                        '/eng/menu/bar/'
+                      ]
+                     }
+                  ]
         }
       }
     }
   }
-
 }
